@@ -1,0 +1,74 @@
+{
+  "source": "Sales et al. (2005), published Figure 5 vector-derived curves, not instrument data",
+  "physical_model": "conservative 1-D FV axial dispersion + wetted spherical intrapellet radial Fick diffusion + reversible linear adsorption",
+  "comparison": {
+    "no_pore_reference_rmse": 0.014868598925778884,
+    "published_parameter_heterogeneous_rmse": 0.04938069756808999,
+    "one_parameter_dispersion_fit_rmse": 0.049308564969675124,
+    "gamma_three_parameter_fit_rmse": 0.007038521026220533,
+    "dispersion_scale_fit": 1.2954114135515966,
+    "dispersion_scale_at_bound": false,
+    "fit_success": true
+  },
+  "numerics": {
+    "nx": 24,
+    "nr": 3,
+    "dimension": 168,
+    "fixed_point_residual_max_s_inverse": 4.440892098500626e-16,
+    "global_inventory_balance_residual_m_s": 2.7755575615628914e-17,
+    "global_inlet_flux_error_m_s": 0.0
+  },
+  "literature_and_assumptions": {
+    "liquid_holdup_Table3": 0.17,
+    "wetting_Table3": 0.38,
+    "Pe_Table3": 4.84,
+    "surface_kt_Table2_bracketed_m_s": 8e-05,
+    "Deff_p450_prose_m2_s": 7.65e-10,
+    "Deff_table2_contradiction_m2_s": 1.8e-07,
+    "Kads_p450_prose_m3_per_kg": 8.2e-05,
+    "bed_porosity_assumed": 0.4,
+    "adsorption_rate_assumed_s_inv": 0.03,
+    "particle_radius_midrange_m": 0.0025,
+    "Dax_bed_flux_m2_s": 0.0004132231404958678
+  },
+  "sensitivity": [
+    {
+      "bed_porosity_assumed": 0.35,
+      "pore_D_m2_s": 7.65e-10,
+      "figure5_graphical_rmse": 0.053605089445362325
+    },
+    {
+      "bed_porosity_assumed": 0.35,
+      "pore_D_m2_s": 1.8e-07,
+      "figure5_graphical_rmse": 0.05802514611884416
+    },
+    {
+      "bed_porosity_assumed": 0.4,
+      "pore_D_m2_s": 7.65e-10,
+      "figure5_graphical_rmse": 0.04938069756808999
+    },
+    {
+      "bed_porosity_assumed": 0.4,
+      "pore_D_m2_s": 1.8e-07,
+      "figure5_graphical_rmse": 0.05368304584531351
+    },
+    {
+      "bed_porosity_assumed": 0.45,
+      "pore_D_m2_s": 7.65e-10,
+      "figure5_graphical_rmse": 0.04509360280263316
+    },
+    {
+      "bed_porosity_assumed": 0.45,
+      "pore_D_m2_s": 1.8e-07,
+      "figure5_graphical_rmse": 0.04924640355344559
+    }
+  ],
+  "major_limitations": [
+    "Model motivated by Sales Eqs. 7-9, not exact analytical transfer function Eqs. 13-15.",
+    "Rate of adsorption k_ads and bed porosity unreported in available paper and are assumptions.",
+    "Figure 5 is one flow condition; fitting RMSE is not experimental generalization.",
+    "Figure 6 inlet series missing; no independent external-test prediction.",
+    "No reaction, gas-phase hydrodynamics, heat transfer or Alopaeus CFD validation.",
+    "Dense vector-resampled figure samples are strongly correlated."
+  ]
+}

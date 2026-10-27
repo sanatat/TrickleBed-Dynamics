@@ -1,0 +1,25 @@
+{
+  "liquid_density_assumption_kg_m3": 700.0,
+  "area_assumption_m2": 1.0,
+  "liquid_volumetric_flow_m3_s": 0.0014885714285714287,
+  "gas_ideal_volumetric_flow_m3_s": 0.0071280024515530315,
+  "liquid_superficial_velocity_m_s": 0.0014885714285714287,
+  "gas_superficial_velocity_m_s": 0.0071280024515530315,
+  "liquid_inlet_reactive_concentrations_mol_m3": {
+    "A": 1871.4075658334446,
+    "H2": 130.91057007361547,
+    "P": 0.061279337482819905
+  },
+  "gas_inlet_reactive_concentrations_mol_m3": {
+    "A": 13.61905860901119,
+    "H2": 586.5999094157669,
+    "P": 0.0
+  },
+  "known_limits": [
+    "All gas feed assumed ideal at 20 bar 400 K; no VLE flash",
+    "Liquid density assumed, not reported in Table 2",
+    "Area 1 m2 treated as cross section of 2012 2D test geometry; actual depth unspecified",
+    "Bulk holdups and kinetic/transport/thermal parameters synthetic",
+    "Dodecane contributes gas molar volume and liquid mass but not differential energy/species equations"
+  ]
+}

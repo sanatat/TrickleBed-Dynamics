@@ -1,0 +1,80 @@
+[
+  {
+    "liquid_density_assumed_kg_m3": 600.0,
+    "chi": 1.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 1604.063627857238,
+    "outlet_A_liq_mol_m3": 1563.174144348046,
+    "liquid_concentration_drop_fraction": 0.025491185511022252,
+    "peak_temperature_K": 400.68103708411456,
+    "delta_T_K": 0.6810370841145641,
+    "min_inventory": 4.4011083147667194e-05,
+    "min_pore_saturation": 0.8400154878707173,
+    "max_pore_saturation": 0.8400154878707173
+  },
+  {
+    "liquid_density_assumed_kg_m3": 600.0,
+    "chi": 10.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 1604.063627857238,
+    "outlet_A_liq_mol_m3": 1509.768411231188,
+    "liquid_concentration_drop_fraction": 0.05878520963162337,
+    "peak_temperature_K": 401.9839581501712,
+    "delta_T_K": 1.9839581501711905,
+    "min_inventory": 9.852527498547594e-05,
+    "min_pore_saturation": 0.840015482623961,
+    "max_pore_saturation": 0.840015482623961
+  },
+  {
+    "liquid_density_assumed_kg_m3": 700.0,
+    "chi": 1.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 1871.4075658334446,
+    "outlet_A_liq_mol_m3": 1820.4873990779267,
+    "liquid_concentration_drop_fraction": 0.02720955482128773,
+    "peak_temperature_K": 400.70429857625845,
+    "delta_T_K": 0.7042985762584522,
+    "min_inventory": 4.928142621382691e-05,
+    "min_pore_saturation": 0.8400154867799412,
+    "max_pore_saturation": 0.8400154867799412
+  },
+  {
+    "liquid_density_assumed_kg_m3": 700.0,
+    "chi": 10.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 1871.4075658334446,
+    "outlet_A_liq_mol_m3": 1760.084836402748,
+    "liquid_concentration_drop_fraction": 0.05948609563364582,
+    "peak_temperature_K": 402.0153972713737,
+    "delta_T_K": 2.015397271373672,
+    "min_inventory": 0.0001170422213903378,
+    "min_pore_saturation": 0.8400154810394777,
+    "max_pore_saturation": 0.8400154810394777
+  },
+  {
+    "liquid_density_assumed_kg_m3": 800.0,
+    "chi": 1.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 2138.751503809651,
+    "outlet_A_liq_mol_m3": 2077.0684952722063,
+    "liquid_concentration_drop_fraction": 0.028840661679288893,
+    "peak_temperature_K": 400.7236659804941,
+    "delta_T_K": 0.7236659804941041,
+    "min_inventory": 5.446995253963565e-05,
+    "min_pore_saturation": 0.8400154874304118,
+    "max_pore_saturation": 0.8400154874304118
+  },
+  {
+    "liquid_density_assumed_kg_m3": 800.0,
+    "chi": 10.0,
+    "final_time_s": 1100.0,
+    "inlet_A_liq_mol_m3": 2138.751503809651,
+    "outlet_A_liq_mol_m3": 2010.494435780715,
+    "liquid_concentration_drop_fraction": 0.0599681953702792,
+    "peak_temperature_K": 402.0328028124884,
+    "delta_T_K": 2.0328028124883986,
+    "min_inventory": 0.00013523284262399618,
+    "min_pore_saturation": 0.8400154808846059,
+    "max_pore_saturation": 0.8400154808846059
+  }
+]

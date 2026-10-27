@@ -1,0 +1,222 @@
+{
+  "source": "Sales 2005 Fig.5 vector-extracted graphical inlet/output (v2.6)",
+  "N_graphical_resamples": 59,
+  "paper_fig5_flow_L_h": 5,
+  "observed_outlet_minus_inlet_t50_s": 150.9774305189186,
+  "bed_mobile_capacity_per_m3": 0.17,
+  "modeled_wetted_intraparticle_plus_adsorption_capacity_per_m3": 0.09580559999999999,
+  "assumed_pore_to_mobile_capacity_ratio": 0.5635623529411764,
+  "approx_advection_time_mobile_s": 136.0,
+  "approx_time_at_full_pore_equilibrium_s": 212.64448,
+  "fixed_parameter_ablation": [
+    {
+      "variant": "axial_only_reference",
+      "rmse": 0.014868598925778884,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 144.41075751477103,
+      "rmse_transition_300_900": 0.018089484779270665,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "full_heterogeneous_reference",
+      "rmse": 0.04938069756808999,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 208.20489213944109,
+      "rmse_transition_300_900": 0.07804360499590014,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "no_adsorption",
+      "rmse": 0.038974734298765475,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 196.48013524134,
+      "rmse_transition_300_900": 0.06221329632559795,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "low_pore_access_0p25",
+      "rmse": 0.013424750037593471,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 160.54949536654527,
+      "rmse_transition_300_900": 0.01737279529806531,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "high_intraparticle_diffusion_table2",
+      "rmse": 0.05368304584531351,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 217.71912820654984,
+      "rmse_transition_300_900": 0.0874483818063882,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "low_surface_exchange_0p1",
+      "rmse": 0.048680015699403535,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 204.96046382329314,
+      "rmse_transition_300_900": 0.07532457803315903,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    },
+    {
+      "variant": "fast_adsorption_relaxation",
+      "rmse": 0.04946273206286868,
+      "observed_t50_delta_s": 150.9774305189186,
+      "model_t50_delta_s": 208.54500577346857,
+      "rmse_transition_300_900": 0.0783972105410546,
+      "param_source": "fixed publisher + explicitly declared assumptions; no fit"
+    }
+  ],
+  "pore_accessibility_profile": [
+    {
+      "accessible_pore_fraction": 0.05,
+      "rmse": 0.013327640475831324,
+      "train_300_720_rmse": 0.017000019318643787,
+      "heldout_750_1050_rmse": 0.008143852271289196,
+      "mean_delay_s": 147.6085424487767
+    },
+    {
+      "accessible_pore_fraction": 0.1,
+      "rmse": 0.012334776163054652,
+      "train_300_720_rmse": 0.015522867888571525,
+      "heldout_750_1050_rmse": 0.005334058055820866,
+      "mean_delay_s": 150.7788823204482
+    },
+    {
+      "accessible_pore_fraction": 0.2,
+      "rmse": 0.012399681332867996,
+      "train_300_720_rmse": 0.017455059325485037,
+      "heldout_750_1050_rmse": 0.0019289025204619645,
+      "mean_delay_s": 157.2441850719673
+    },
+    {
+      "accessible_pore_fraction": 0.35,
+      "rmse": 0.01682720628813102,
+      "train_300_720_rmse": 0.027841624158264102,
+      "heldout_750_1050_rmse": 0.010137639477806645,
+      "mean_delay_s": 167.06393962513744
+    },
+    {
+      "accessible_pore_fraction": 0.5,
+      "rmse": 0.023628114780650352,
+      "train_300_720_rmse": 0.04072024808182693,
+      "heldout_750_1050_rmse": 0.019412599913378275,
+      "mean_delay_s": 176.60277452322327
+    },
+    {
+      "accessible_pore_fraction": 0.75,
+      "rmse": 0.036350348005641644,
+      "train_300_720_rmse": 0.06277083426176955,
+      "heldout_750_1050_rmse": 0.035379673196664206,
+      "mean_delay_s": 192.49468758134992
+    },
+    {
+      "accessible_pore_fraction": 1.0,
+      "rmse": 0.04938069756808999,
+      "train_300_720_rmse": 0.08420871651163402,
+      "heldout_750_1050_rmse": 0.051776311488686735,
+      "mean_delay_s": 208.20489213944109
+    }
+  ],
+  "best_profile_point_fitted_to_fig5": {
+    "accessible_pore_fraction": 0.1,
+    "rmse": 0.012334776163054652,
+    "train_300_720_rmse": 0.015522867888571525,
+    "heldout_750_1050_rmse": 0.005334058055820866,
+    "mean_delay_s": 150.7788823204482
+  },
+  "joint_parameter_tradeoff_best_in_sample": {
+    "accessible_pore_fraction": 0.1,
+    "dispersion_multiplier": 0.5,
+    "rmse": 0.009485762561090422
+  },
+  "joint_parameter_tradeoff_all": [
+    {
+      "accessible_pore_fraction": 0.05,
+      "dispersion_multiplier": 0.5,
+      "rmse": 0.01073482554288117
+    },
+    {
+      "accessible_pore_fraction": 0.05,
+      "dispersion_multiplier": 1.0,
+      "rmse": 0.013327640475831324
+    },
+    {
+      "accessible_pore_fraction": 0.05,
+      "dispersion_multiplier": 2.0,
+      "rmse": 0.016675823031261534
+    },
+    {
+      "accessible_pore_fraction": 0.1,
+      "dispersion_multiplier": 0.5,
+      "rmse": 0.009485762561090422
+    },
+    {
+      "accessible_pore_fraction": 0.1,
+      "dispersion_multiplier": 1.0,
+      "rmse": 0.012334776163054652
+    },
+    {
+      "accessible_pore_fraction": 0.1,
+      "dispersion_multiplier": 2.0,
+      "rmse": 0.015959959536736484
+    },
+    {
+      "accessible_pore_fraction": 0.2,
+      "dispersion_multiplier": 0.5,
+      "rmse": 0.009740564091493674
+    },
+    {
+      "accessible_pore_fraction": 0.2,
+      "dispersion_multiplier": 1.0,
+      "rmse": 0.012399681332867996
+    },
+    {
+      "accessible_pore_fraction": 0.2,
+      "dispersion_multiplier": 2.0,
+      "rmse": 0.01607939464017608
+    },
+    {
+      "accessible_pore_fraction": 0.4,
+      "dispersion_multiplier": 0.5,
+      "rmse": 0.017848932457498756
+    },
+    {
+      "accessible_pore_fraction": 0.4,
+      "dispersion_multiplier": 1.0,
+      "rmse": 0.01894848988097019
+    },
+    {
+      "accessible_pore_fraction": 0.4,
+      "dispersion_multiplier": 2.0,
+      "rmse": 0.021439153470934946
+    },
+    {
+      "accessible_pore_fraction": 0.8,
+      "dispersion_multiplier": 0.5,
+      "rmse": 0.03955064670866373
+    },
+    {
+      "accessible_pore_fraction": 0.8,
+      "dispersion_multiplier": 1.0,
+      "rmse": 0.0389554721973673
+    },
+    {
+      "accessible_pore_fraction": 0.8,
+      "dispersion_multiplier": 2.0,
+      "rmse": 0.039651562086087735
+    }
+  ],
+  "best_accessibility_fitted_transition_training_only": {
+    "accessible_pore_fraction": 0.1,
+    "rmse": 0.012334776163054652,
+    "train_300_720_rmse": 0.015522867888571525,
+    "heldout_750_1050_rmse": 0.005334058055820866,
+    "mean_delay_s": 150.7788823204482
+  },
+  "transition_train_definition": "graphical 300-720 s",
+  "transition_holdout_definition": "graphical 750-1050 s; same experiment, NOT external validation",
+  "inventory_identity_max_residual_m_s": 2.7755575615628914e-17,
+  "inlet_identity_error_m_s": 0.0,
+  "conclusion": "No unique root cause. Extra pore storage/adsorption in the chosen closures shifts response; plausible accessible volume and adsorption kinetics are unmeasured.",
+  "critical_qualification": "Best accessible pore fraction is calibrated on same Fig.5 and cannot be interpreted as observed porosity/wetting or as independent validation."
+}

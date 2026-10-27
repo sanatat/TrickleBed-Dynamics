@@ -1,0 +1,27 @@
+{
+  "provenance": "Sales et al. 2005 Figure 5, approx hand-read v2.0 CSV; not raw or calibrated-pixel digitization",
+  "conditions": "Figure 5 Q_L=5 L/h, Q_G=300 L/h; do not transfer params to Figure 6 without recalibration",
+  "tau_mean_s": 163.24080845887266,
+  "gamma_shape": 6.496606080429126,
+  "delay_s": 2.8481108482689027e-11,
+  "rmse_approx_points": 0.007126306762344229,
+  "rmse_zero_residence_baseline": 0.2368262914198766,
+  "fit_npoints": 13,
+  "estimated_manual_time_uncertainty_s": 45,
+  "estimated_manual_y_uncertainty": 0.06,
+  "validation_status": "method demonstration against approximate graph readings only",
+  "stress_test_35_reading_perturbations_10_90_percentiles": {
+    "tau_mean_s": [
+      49.0153095717816,
+      167.33285149523334
+    ],
+    "shape": [
+      0.6000000000046869,
+      9.521991609341926
+    ],
+    "delay_s": [
+      2.4482837484248435e-17,
+      115.0854139852701
+    ]
+  }
+}

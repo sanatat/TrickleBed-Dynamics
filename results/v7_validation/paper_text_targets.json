@@ -1,0 +1,8 @@
+{
+  "reacted_axial_extent_chi1_approx_m": 1.0,
+  "reacted_axial_extent_chi10_approx_m": 0.25,
+  "T_in_K": 400,
+  "T_near_exit_chi1_approx_K": 500,
+  "T_plateau_location_chi10_approx_m": 0.3,
+  "notes": "Article 2012 page 6 (printed page 402); approximate narrative values, NOT digitized curve data."
+}

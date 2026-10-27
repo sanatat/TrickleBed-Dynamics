@@ -1,0 +1,42 @@
+{
+  "study_type": "SYNTHETIC proof-of-concept; no experimental data",
+  "data_seed": 20261026,
+  "relative_flow_calibration": 1.0,
+  "relative_flow_holdout": 1.35,
+  "truth": {
+    "mean_residence_s": 85.0,
+    "effective_tanks": 5.2,
+    "delay_s": 7.0
+  },
+  "fit": {
+    "mean_residence_s": 86.6659624837148,
+    "effective_tanks": 5.444231773338774,
+    "delay_s": 4.74077905857642
+  },
+  "baseline_single_tank_fit": {
+    "mean_residence_s": 97.1520642339253,
+    "effective_tanks": 1.0,
+    "delay_s": 29.999999999999996
+  },
+  "fit_95pct_bootstrap_intervals": {
+    "mean_residence_s": [
+      83.83163342991789,
+      88.69377721757101
+    ],
+    "effective_tanks": [
+      5.0439144102082745,
+      5.748156618938984
+    ],
+    "delay_s": [
+      2.5965012653436883,
+      7.950033228499325
+    ]
+  },
+  "rmse_calibration": 0.0001684261278143039,
+  "rmse_holdout": 0.00024913454094388374,
+  "rmse_holdout_single_tank": 0.0023808650493933126,
+  "holdout_fraction_within_bootstrap_band": 0.17355371900826447,
+  "bootstrap_runs": 100,
+  "noise_sigma": 0.00023,
+  "caveat": "Bootstrap bands cover parametric estimation uncertainty only and are not observation prediction intervals. Ground truth deliberately follows fitted model family."
+}

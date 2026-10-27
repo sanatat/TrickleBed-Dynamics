@@ -1,0 +1,26 @@
+{
+  "model_status": "uncalibrated 1D synthetic model, NOT 2012 CFD reproduction",
+  "max_closed_inventory_source_residual": 5.898059818321144e-17,
+  "residuals_mol_m3_s": {
+    "closed_no_reaction": [
+      2.6020852139652106e-17,
+      5.551115123125783e-17
+    ],
+    "closed_with_reaction": [
+      2.2551405187698492e-17,
+      5.898059818321144e-17
+    ]
+  },
+  "grid_12_to_18_absolute_outlet_difference_mol_m3": 0.050237078658057044,
+  "grid_12_to_18_relative_outlet_difference": 0.00023621912202895776,
+  "baseline": {
+    "scenario": "baseline",
+    "peak_temperature_K": 400.5823779797608,
+    "outlet_alkene_mol_m3": 212.72175251972618,
+    "outlet_concentration_drop_fraction": 0.2909274916009127,
+    "min_species_inventory_mol_m3bed": 0.00019489061449420015,
+    "saturation_min": 0.49039837614273607,
+    "saturation_max": 0.49039837614273607
+  },
+  "provenance": "Gorshkova et al. 2012 supplies geometry and phenomenological framework; kinetic/transfer/wetting constants uncalibrated"
+}

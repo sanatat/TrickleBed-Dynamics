@@ -1,0 +1,173 @@
+{
+  "experiment_source": "Sales et al. 2005 Figure 5; Q_L 5 L/h and Q_G 300 L/h; user-provided download.pdf",
+  "experiment_data_type": "Published graphical time series, not independent raw instrument readings",
+  "kcl_data": "NOT AVAILABLE IN PROVIDED ARTICLE; ALL KCl trajectories SYNTHETIC",
+  "rtd_model": "1D axial dispersion + spherical intraparticle diffusion + reversible adsorbate state, v2.8 family",
+  "experiment_NaGl_only": {
+    "fit_accessible_pore_fraction": 0.1891136396248095,
+    "fit_Kads_m3_kg": 5.864361726574178e-06,
+    "fit_rmse_full": 0.011919230672067445,
+    "fit_rmse_transition": 0.014677430297876283,
+    "on_parameter_bounds": false,
+    "optimization_success": true,
+    "identification_warning": "Fit is in-sample and joint parameters may be nonunique. No external experimental validation."
+  },
+  "controlled_synthetic_design": {
+    "true_pore_accessibility": 0.2,
+    "true_NaGl_Kads_m3_kg": 8.199999999999999e-05,
+    "KCl_Kads_assumed_m3_kg": 0.0,
+    "KCl_pore_diffusivity_assumed_m2_s": 1.3e-09,
+    "synthetic_noise_sigma_normalized_concentration": 0.01,
+    "assumed_fisher_sigma": 0.015,
+    "synthetic_design_seed": 2026,
+    "Fisher_sample_count_per_tracer": 19,
+    "fisher_diagnostics": {
+      "NaGl_only": {
+        "smallest_eigenvalue": 0.010103291579140916,
+        "largest_eigenvalue": 18.286333437298694,
+        "condition_number": 1809.9382061834528,
+        "log_parameter_correlation": -0.9922656743913748,
+        "optimistic_crlb_logparam_sd": [
+          1.919393430811398,
+          9.76464330062056
+        ],
+        "logdet": -1.6887400351602553
+      },
+      "NaGl_repeated_twice": {
+        "smallest_eigenvalue": 0.020206583158281832,
+        "largest_eigenvalue": 36.57266687459739,
+        "condition_number": 1809.9382061834528,
+        "log_parameter_correlation": -0.9922656743913748,
+        "optimistic_crlb_logparam_sd": [
+          1.3572161106916518,
+          6.90464549373659
+        ],
+        "logdet": -0.3024456740403645
+      },
+      "NaGl_plus_assumed_KCl": {
+        "smallest_eigenvalue": 0.2811669337211906,
+        "largest_eigenvalue": 30.232726359819786,
+        "condition_number": 107.52589559410643,
+        "log_parameter_correlation": -0.7624806116674429,
+        "optimistic_crlb_logparam_sd": [
+          0.2829684303900456,
+          1.8733957387793378
+        ],
+        "logdet": 2.140118276093955
+      }
+    },
+    "hypothetical_robustness_grid": [
+      {
+        "assumed_pore_accessibility": 0.1,
+        "assumed_NaGl_Kads_m3_kg": 4.1e-05,
+        "single_min_eigen": 0.0006858050003327454,
+        "dual_min_eigen": 0.020342146093026328,
+        "single_condition": 5427.719789342352,
+        "dual_condition": 335.0858134352101,
+        "min_eigen_gain": 29.661705708118973
+      },
+      {
+        "assumed_pore_accessibility": 0.1,
+        "assumed_NaGl_Kads_m3_kg": 8.2e-05,
+        "single_min_eigen": 0.002532553755338257,
+        "dual_min_eigen": 0.07114927321263023,
+        "single_condition": 1846.6239357918532,
+        "dual_condition": 108.52846213213965,
+        "min_eigen_gain": 28.093884705372137
+      },
+      {
+        "assumed_pore_accessibility": 0.1,
+        "assumed_NaGl_Kads_m3_kg": 0.000164,
+        "single_min_eigen": 0.005486999216936517,
+        "dual_min_eigen": 0.20708687166299616,
+        "single_condition": 1272.8171173776298,
+        "dual_condition": 47.78675786734097,
+        "min_eigen_gain": 37.74137073389564
+      },
+      {
+        "assumed_pore_accessibility": 0.2,
+        "assumed_NaGl_Kads_m3_kg": 4.1e-05,
+        "single_min_eigen": 0.003175724577465705,
+        "dual_min_eigen": 0.08001584350285754,
+        "single_condition": 4583.861613522817,
+        "dual_condition": 333.6551520643575,
+        "min_eigen_gain": 25.19609038851595
+      },
+      {
+        "assumed_pore_accessibility": 0.2,
+        "assumed_NaGl_Kads_m3_kg": 8.2e-05,
+        "single_min_eigen": 0.010103291579140916,
+        "dual_min_eigen": 0.2811669337211906,
+        "single_condition": 1809.9382061834528,
+        "dual_condition": 107.52589559410643,
+        "min_eigen_gain": 27.829240749785257
+      },
+      {
+        "assumed_pore_accessibility": 0.2,
+        "assumed_NaGl_Kads_m3_kg": 0.000164,
+        "single_min_eigen": 0.020267913986477204,
+        "dual_min_eigen": 0.8088460368920287,
+        "single_condition": 1343.697135393019,
+        "dual_condition": 47.79997013317892,
+        "min_eigen_gain": 39.90771015861289
+      },
+      {
+        "assumed_pore_accessibility": 0.4,
+        "assumed_NaGl_Kads_m3_kg": 4.1e-05,
+        "single_min_eigen": 0.0116128325368684,
+        "dual_min_eigen": 0.3141743432517768,
+        "single_condition": 4825.007478603627,
+        "dual_condition": 327.4749308781815,
+        "min_eigen_gain": 27.054066460903197
+      },
+      {
+        "assumed_pore_accessibility": 0.4,
+        "assumed_NaGl_Kads_m3_kg": 8.2e-05,
+        "single_min_eigen": 0.03312865501838047,
+        "dual_min_eigen": 1.0667645801347392,
+        "single_condition": 2105.253782059567,
+        "dual_condition": 108.61381369155346,
+        "min_eigen_gain": 32.20066071329717
+      },
+      {
+        "assumed_pore_accessibility": 0.4,
+        "assumed_NaGl_Kads_m3_kg": 0.000164,
+        "single_min_eigen": 0.0701064184730491,
+        "dual_min_eigen": 3.101645747066775,
+        "single_condition": 1469.4756088800714,
+        "dual_condition": 47.44026999062391,
+        "min_eigen_gain": 44.24196549505857
+      }
+    ],
+    "single_NaGl_synthetic_fit": {
+      "pore_access": 0.22286424888744155,
+      "Kads": 1.0009731360267916e-06
+    },
+    "dual_synthetic_fit": {
+      "pore_access": 0.1672869272279084,
+      "Kads": 0.00010364355749254542
+    },
+    "single_fit_success": true,
+    "dual_fit_success": true,
+    "single_parameter_log_error": 4.407076133674648,
+    "dual_parameter_log_error": 0.29456420155734575
+  },
+  "first_moment_conditional_example": {
+    "assumed_bed_void_fraction": 0.4,
+    "published_liquid_holdup": 0.17,
+    "published_wetting_efficiency": 0.38,
+    "calculated_NaGl_mean_time_s": 192.39619282399343,
+    "calculated_assumed_nonadsorbing_KCl_mean_time_s": 177.51033961720955,
+    "calculated_mean_delay_difference_s": 14.885853206783878,
+    "warning": "Computed from Eq.16-style capacity under assumed bed void fraction and KCl adsorption=0; NOT experimental mean times."
+  },
+  "limitations": [
+    "KCl data series unavailable in published source or verified accessible data.",
+    "Synthetic experiments use the same forward model for data generation and fitting (inverse crime).",
+    "Estimated CRLB assumes independent Gaussian noise at selected timepoints; digitized traces are correlated.",
+    "NaGl source fit uses only one original flow and is not externally validated.",
+    "Adsorption relaxation rate, bed porosity, and accessible pore fraction lack independent experimental constraints.",
+    "No inference of real KCl adsorption kinetics or transport parameters is possible.",
+    "Not a reactor thermal model; no claim of full Alopaeus CFD reproduction."
+  ]
+}

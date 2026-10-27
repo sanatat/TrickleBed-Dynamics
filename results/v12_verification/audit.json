@@ -1,0 +1,61 @@
+{
+  "status": "numerical verification ONLY; synthetic uncalibrated 1D model",
+  "tolerances": [
+    {
+      "rtol": 1e-05,
+      "atol": 1e-07,
+      "outlet_alkene_mol_m3": 225.14085817193768,
+      "peak_T_K": 400.3006144776672,
+      "min_inventory": 0.00012190814966866777,
+      "sat_min": 0.43760056636158867,
+      "sat_max": 0.43760056636158867,
+      "relative_outlet_vs_tight": 6.264500129294294e-06
+    },
+    {
+      "rtol": 1e-07,
+      "atol": 1e-09,
+      "outlet_alkene_mol_m3": 225.13944769425092,
+      "peak_T_K": 400.30061929404997,
+      "min_inventory": 0.00012190871791935985,
+      "sat_min": 0.437606283395502,
+      "sat_max": 0.437606283395502,
+      "relative_outlet_vs_tight": 4.068012000662257e-10
+    },
+    {
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "outlet_alkene_mol_m3": 225.13944778583792,
+      "peak_T_K": 400.300619283317,
+      "min_inventory": 0.00012190869235100427,
+      "sat_min": 0.4376062834414377,
+      "sat_max": 0.4376062834414377,
+      "relative_outlet_vs_tight": 0.0
+    }
+  ],
+  "budget_checkpoints": [
+    {
+      "t_s": 29.25,
+      "carbon_derivative": 0.032044640184857025,
+      "carbon_boundary": 0.03204464018485701,
+      "hydrogen_derivative": -0.209824381648225,
+      "hydrogen_boundary": -0.20982438164822498,
+      "max_inventory_flux_residual": 2.7755575615628914e-17,
+      "energy_rhs_residual_K_s": 0.0
+    },
+    {
+      "t_s": 89.375,
+      "carbon_derivative": 0.03680347648296567,
+      "carbon_boundary": 0.03680347648296567,
+      "hydrogen_derivative": -0.34901900908363404,
+      "hydrogen_boundary": -0.349019009083634,
+      "max_inventory_flux_residual": 5.551115123125783e-17,
+      "energy_rhs_residual_K_s": 0.0
+    }
+  ],
+  "max_budget_residual": 5.551115123125783e-17,
+  "warnings": [
+    "Energy RHS identity is a code consistency check, not a physical energy conservation proof.",
+    "Wetting closure, pseudo-mixture heat equation, pressure/phase changes remain incomplete.",
+    "Parameter values do not reproduce published 2012 CFD outputs."
+  ]
+}

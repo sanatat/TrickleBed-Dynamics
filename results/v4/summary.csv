@@ -1,0 +1,5 @@
+scenario,chi,final_outlet_concentration_proxy,max_temperature_K,final_mean_wet
+initially_dry,1.0,0.20461,401.8203,0.47614
+initially_dry,10.0,0.29646,402.0952,0.47614
+prewetted,1.0,0.25947,402.1768,0.49213
+prewetted,10.0,0.3656,402.5819,0.49213

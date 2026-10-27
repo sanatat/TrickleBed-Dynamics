@@ -1,0 +1,13 @@
+{
+  "primary_kinetics": "Lylykangas, Rautanen, Krause (2003), AIChE J. 49:1508-1515, DOI 10.1002/aic.690490614",
+  "verified_from": "Publisher abstract",
+  "Ea_TMP1_J_mol": 34000,
+  "Ea_TMP2_J_mol": 49000,
+  "unknown": [
+    "k_ref for both isomers",
+    "adsorption constants and their units",
+    "isomer-resolved feed fractions in 2012 CFD",
+    "complete kinetics table"
+  ],
+  "warning": "The v0.9 model has only one octene species. These are ALTERNATIVE sensitivity cases; not two-isomer simulations."
+}

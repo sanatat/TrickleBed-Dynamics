@@ -1,0 +1,55 @@
+{
+  "source": "Sales et al. (2005), Brazilian Journal of Chemical Engineering 22(3), 443-452, Fig. 5-6, printed p.450",
+  "doi": "10.1590/S0104-66322005000300012",
+  "page_index_0_based": 7,
+  "sha256_source_pdf": "8a0ff1b16f3de6db6d9eca6cbf58314ddad600b1d64020c312b0976c6826c918",
+  "pdf_coordinate_unit": "PDF points with origin top-left",
+  "axes_pdf_points": {
+    "figure5": {
+      "x0": 101.52,
+      "x1800": 258.48,
+      "y1": 463.04,
+      "y0": 642.8
+    },
+    "figure6": {
+      "x0": 351.6,
+      "x1800": 510.72,
+      "y1": 462.56,
+      "y0": 638.96
+    }
+  },
+  "method": "read embedded vector drawing marker shapes with PyMuPDF; calibrate using x-axis ticks 0,1800 s and y-axis ticks 0,1",
+  "not_raw_instrument_data": true,
+  "limits": "Figure 5 dense vector markers are a plotted continuous trace. Sampling them yields correlated reconstructions, not independent experimental points. Figure 6 triangle symbols carry finite plotting-marker uncertainty; inlet waveform for Figure 6 is not separately published.",
+  "uncertainty_conservative": "Use \u00b11.0 PDF pt for Fig 5 and \u00b12.2 PDF pt for Fig 6 symbol positioning, PLUS unquantified digitization/author plotting systematic errors. These are not instrument uncertainty or confidence intervals.",
+  "series": {
+    "fig5_experimental_exit": {
+      "embedded_vector_markers": 1023,
+      "exported_rows": 59,
+      "kind": "resampled graphical trace (not independent point observations)",
+      "time_point_approx_uncertainty_s": 11.467889908256877,
+      "fraction_approx_uncertainty": 0.005562972852692481
+    },
+    "fig5_experimental_entrance": {
+      "embedded_vector_markers": 1024,
+      "exported_rows": 59,
+      "kind": "resampled graphical trace (not independent point observations)",
+      "time_point_approx_uncertainty_s": 11.467889908256877,
+      "fraction_approx_uncertainty": 0.005562972852692481
+    },
+    "fig6_experimental_exit": {
+      "embedded_vector_markers": 61,
+      "exported_rows": 61,
+      "kind": "printed discrete experimental triangle symbols",
+      "time_point_approx_uncertainty_s": 24.8868778280543,
+      "fraction_approx_uncertainty": 0.012471655328798185
+    },
+    "fig6_published_fitted_model": {
+      "embedded_vector_markers": 262,
+      "exported_rows": 173,
+      "kind": "authors original plotted model polyline (NOT new observations)",
+      "time_point_approx_uncertainty_s": 24.8868778280543,
+      "fraction_approx_uncertainty": 0.012471655328798185
+    }
+  }
+}

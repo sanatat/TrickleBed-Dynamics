@@ -1,0 +1,51 @@
+{
+  "data_type": "synthetic",
+  "design_type": "local_D_optimal",
+  "theta_nominal": [
+    0.0025,
+    1.4e-05
+  ],
+  "noise_sd": 8e-05,
+  "flows_candidates": [
+    0.65,
+    0.8,
+    1.0,
+    1.2,
+    1.35,
+    1.6,
+    1.9
+  ],
+  "baseline_flows": [
+    1.0,
+    1.35
+  ],
+  "optimal_flows": [
+    1.6,
+    1.9
+  ],
+  "baseline_logdet_FIM": 11.072388188705819,
+  "optimal_logdet_FIM": 15.044250582321894,
+  "logdet_gain": 3.9718623936160746,
+  "baseline_FIM_eigenvalues": [
+    17.1303189996261,
+    3757.609467481151
+  ],
+  "optimal_FIM_eigenvalues": [
+    108.03990614631392,
+    31626.476797437874
+  ],
+  "baseline_parameter_estimates": [
+    0.0027255346304265867,
+    1.711958619362784e-05
+  ],
+  "optimal_parameter_estimates": [
+    0.002554774846930914,
+    1.552849647338927e-05
+  ],
+  "baseline_local_condition": 13.191574240023915,
+  "optimal_local_condition": 15.748002376542047,
+  "holdout_flow": 1.75,
+  "holdout_rmse_baseline": 9.417651576901554e-05,
+  "holdout_rmse_optimal": 7.757481324471122e-05,
+  "warning": "Local nominal optimality with fixed known noise, constant wetting, and same forward/generative model. One random trial; no claim that heldout RMSE must improve."
+}

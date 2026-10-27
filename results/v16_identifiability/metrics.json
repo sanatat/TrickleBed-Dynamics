@@ -1,0 +1,44 @@
+{
+  "data_type": "fully_synthetic",
+  "true_parameters": {
+    "k_exchange": 0.0025,
+    "D_ax_m2_s": 1.4e-05
+  },
+  "noise_sd": 8e-05,
+  "seed": 20261026,
+  "single_flow": {
+    "estimate": [
+      0.002527764655549253,
+      1.0000001337744467e-07
+    ],
+    "singular_values": [
+      12.724783841020189,
+      0.005698397979778412
+    ],
+    "jacobian_condition": 2233.04582905159,
+    "parameter_correlation": 0.9858838725252479,
+    "cost": 21.585044320528397,
+    "success": true
+  },
+  "two_flow": {
+    "estimate": [
+      0.0023215395552692395,
+      1.4135506959747976e-06
+    ],
+    "singular_values": [
+      57.04275931008763,
+      0.44090741214911383
+    ],
+    "jacobian_condition": 129.37582299205238,
+    "parameter_correlation": 0.9246547765568548,
+    "cost": 51.14261340367825,
+    "success": true
+  },
+  "holdout": {
+    "flow_multiplier": 1.6,
+    "rmse_single": 9.022539138421715e-05,
+    "rmse_two": 8.024873075773077e-05,
+    "rmse_weak_baseline": 0.0008893681955091539
+  },
+  "note": "Local SVD and correlation only; confidence intervals from inverse Hessian would require stronger assumptions. These are synthetic identifiability diagnostics, not experimental validation."
+}

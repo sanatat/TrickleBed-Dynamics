@@ -1,0 +1,29 @@
+{
+  "dataset": "synthetic, NO external validation",
+  "study": "Concurrent integration of reactive 4-compartment balances and tracer with shared mobile-liquid axial dispersion",
+  "parameter_provenance": "all dispersions are illustration; low value inspired by v1.4 synthetic fit; high value synthetic truth; neither empirically verified",
+  "metrics": {
+    "zero_dispersion": {
+      "final_outlet_octene": 266.63283886577847,
+      "peak_temperature_K": 401.16048245805854,
+      "max_outlet_tracer": 0.002409282552759373
+    },
+    "low_dispersion": {
+      "final_outlet_octene": 266.7279680456058,
+      "peak_temperature_K": 401.1604989050967,
+      "max_outlet_tracer": 0.0023879458673120102
+    },
+    "high_dispersion": {
+      "final_outlet_octene": 266.8760238382713,
+      "peak_temperature_K": 401.16052481594994,
+      "max_outlet_tracer": 0.002357075702667448
+    }
+  },
+  "limitations": [
+    "No experimental calibration",
+    "Pore-exchange coefficient for tracer independent of chemistry interface coefficients",
+    "Tracer passive; chemical reaction affects neither wettability nor hydraulics",
+    "Pressure, phase change and actual pore geometry not solved",
+    "Concentration reduction does not equal overall conversion"
+  ]
+}

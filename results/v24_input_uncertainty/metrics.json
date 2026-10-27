@@ -1,0 +1,57 @@
+{
+  "publication": "Sales et al. (2005), DOI 10.1590/S0104-66322005000300012",
+  "observations": "manual approximate Fig 6 readings inherited from v2.0",
+  "n_points": 19,
+  "raw_experiment_available": false,
+  "pixel_calibrated": false,
+  "inlet_trace_Fig6_available": false,
+  "source_Fig6_caption": "QG=300 L/h, QL=10 L/h",
+  "model": "Gamma transfer-function from Fig 5; mean adjusted by holdup/velocity ratio from Table 3",
+  "shape": 6.511428627467515,
+  "scaled_mean_s": 100.80684066758116,
+  "ranges": "input offset 0\u201390 s; ramp duration 0\u2013120 s: exploratory assumed range, not measurement",
+  "scenarios": [
+    {
+      "scenario": "scaled_ideal_step",
+      "gamma_mean_s": 100.80684066758116,
+      "input_start_s": 0.0,
+      "input_ramp_s": 0.0,
+      "rmse_approx": 0.4150238112770335,
+      "mae_approx": 0.28747313765851673
+    },
+    {
+      "scenario": "scaled_shift_60s",
+      "gamma_mean_s": 100.80684066758116,
+      "input_start_s": 60.0,
+      "input_ramp_s": 0.0,
+      "rmse_approx": 0.2882755665209409,
+      "mae_approx": 0.19527357647156024
+    },
+    {
+      "scenario": "scaled_ramp_120s",
+      "gamma_mean_s": 100.80684066758116,
+      "input_start_s": 0.0,
+      "input_ramp_s": 120.0,
+      "rmse_approx": 0.2732777332940454,
+      "mae_approx": 0.19306302625093463
+    },
+    {
+      "scenario": "scaled_shift_60_ramp_120",
+      "gamma_mean_s": 100.80684066758116,
+      "input_start_s": 60.0,
+      "input_ramp_s": 120.0,
+      "rmse_approx": 0.13432653097336655,
+      "mae_approx": 0.09047510908133856
+    },
+    {
+      "scenario": "unscaled_ideal_step",
+      "gamma_mean_s": 163.21107536655995,
+      "input_start_s": 0.0,
+      "input_ramp_s": 0.0,
+      "rmse_approx": 0.2644131896602621,
+      "mae_approx": 0.1885093746354642
+    }
+  ],
+  "best_rmse_scenario": "scaled_shift_60_ramp_120",
+  "warning": "Selection based on manually approximated values is not experimental model validation; input alternatives have no measured supporting trace."
+}

@@ -1,0 +1,31 @@
+{
+  "data_origin": "Sales et al. 2005 Fig 5; 13 manually approximated points inherited from v2.0, not original measurements or pixel-calibrated digitization",
+  "train_until_s": 750,
+  "train_n": 9,
+  "holdout_n": 4,
+  "caution": "The complete approximate inlet trace is used as known forcing; only late outlet observations are held out. Same single run, not independent experimental validation.",
+  "gamma": {
+    "params": {
+      "mean_s": 163.21107536655995,
+      "shape": 6.511428627467515,
+      "delay_s": 3.0042564573215524e-17
+    },
+    "train_rmse": 0.004756047154746356,
+    "holdout_rmse": 0.01068512974302605,
+    "all_rmse": 0.007126698725133958
+  },
+  "exponential": {
+    "params": {
+      "mean_s": 68.19878203488337,
+      "shape": 1.0,
+      "delay_s": 96.93202227609211
+    },
+    "train_rmse": 0.01020545631165257,
+    "holdout_rmse": 0.010546171722150423,
+    "all_rmse": 0.010311490971554257
+  },
+  "zero_residence_baseline": {
+    "holdout_rmse": 0.021224985276791123,
+    "train_rmse": 0.28427783749157953
+  }
+}

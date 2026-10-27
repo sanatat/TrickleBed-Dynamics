@@ -1,0 +1,31 @@
+{
+  "source": "Sales et al. 2005 Fig. 5 & Fig. 6, directly vector-encoded figure symbols in user PDF",
+  "figure5": {
+    "n_resampled_graphical_points": 59,
+    "gamma_mean_s": 74.34906616033317,
+    "gamma_shape": 0.6001386867831837,
+    "additional_delay_s": 73.00000325891023,
+    "gamma_rmse_graphical_trace": 0.007038521026220533,
+    "exponential_mean_s": 89.6242148477577,
+    "exponential_delay_s": 56.30653357082434,
+    "exponential_rmse_graphical_trace": 0.008530988438762394,
+    "no_residence_rmse": 0.1361697162695209,
+    "input_t50_s": 325.7142870488731,
+    "outlet_t50_s": 476.69171756779167
+  },
+  "figure6": {
+    "n_discrete_published_triangle_markers": 61,
+    "outlet_t50_s": 233.4841628959272,
+    "inlet_time_series_available": false,
+    "authors_published_model_rmse_on_printed_markers": 0.0276332232175329,
+    "note": "authors own model-vs-experiment graphical comparison, NOT new independent validation"
+  },
+  "qualifications": [
+    "Figure 5 data are resampled symbols on a published drawn curve, NOT raw instrument data nor independent i.i.d. data points.",
+    "The RMSE describes Figure 5 fitting to resampled graphical representation, not experimental measurement error.",
+    "The PDF contains Figure 6 output triangle markers, but no separately measured Figure 6 inlet trace. Thus no independent inlet-to-outlet transfer validation at the 10 L/h condition.",
+    "The model is a phenomenological delayed gamma kernel, not the published heterogeneous axial-dispersion adsorption model and not a reactive industrial CFD simulation.",
+    "Symbol location/line thickness uncertainty excludes experimental instrument or printing systematics.",
+    "The fitted delay may be correlated with kernel shape, so these estimates are not guaranteed individually identifiable."
+  ]
+}

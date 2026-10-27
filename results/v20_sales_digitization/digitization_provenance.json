@@ -1,0 +1,10 @@
+{
+  "source": "Sales et al., Brazilian Journal of Chemical Engineering 22(3), 443-452 (2005), doi:10.1590/S0104-66322005000300012",
+  "source_figure": "Figures 5 and 6, printed page 450 / PDF page 8 (zero-index 7)",
+  "extraction": "coarse manual visual reading of journal raster figure, NOT automatic high-resolution pixel digitization and NOT raw experimental acquisition",
+  "time_uncertainty_s_assumed": 45,
+  "fraction_uncertainty_assumed": 0.06,
+  "status": "exploratory only; replace with calibrated WebPlotDigitizer curves or author-supplied raw data for actual experimental validation",
+  "fig5": "Q_L=5 L/h, Q_G=300 L/h, 300 K, 202.64 kPa; approximate experimental entrance and exit curves",
+  "fig6": "Q_L=10 L/h, Q_G=300 L/h, 300 K, 202.64 kPa; approximate experimental curve"
+}

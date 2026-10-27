@@ -1,0 +1,13 @@
+{
+  "figure5_inlet_fall": true,
+  "figure5_outlet_fall": true,
+  "figure5_outlet_delayed": true,
+  "figure5_plot_q_liquid_L_h": 5,
+  "figure6_plot_q_liquid_L_h": 10,
+  "both_q_gas_L_h": 300,
+  "measured_fig6_inlet_available": false,
+  "source_pdf_local_available": false,
+  "new_pixel_digitization_completed": false,
+  "raw_experimental_timeseries_available": false,
+  "previous_data_points": 13
+}

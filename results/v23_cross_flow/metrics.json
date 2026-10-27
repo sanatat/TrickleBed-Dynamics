@@ -1,0 +1,27 @@
+{
+  "source": "Sales 2005 Figure 6 (manually approximated values inherited v2.0)",
+  "figure6_experimental_raw": false,
+  "pixel_calibrated": false,
+  "refit_to_figure6": false,
+  "figure6_inlet_assumption": "ideal normalized step-down at t=0 (unverified exact experimental inlet)",
+  "length_m": 0.8,
+  "Q_gas_lph": 300,
+  "table3_Q5": {
+    "uL_m_s": 0.001,
+    "holdup": 0.17,
+    "hydraulic_mean_s": 136.0
+  },
+  "table3_Q10": {
+    "uL_m_s": 0.002,
+    "holdup": 0.21,
+    "hydraulic_mean_s": 84.0
+  },
+  "time_ratio": 0.6176470588235294,
+  "figure5_gamma_mean_s": 163.21107536655995,
+  "figure5_shape": 6.511428627467515,
+  "predicted_figure6_mean_s": 100.80684066758116,
+  "n_approx": 19,
+  "rmse_cross_flow_approx": 0.4150238112770335,
+  "rmse_unscaled_approx": 0.2644131896602621,
+  "assessment": "diagnostic only; independent flow condition but approximate manually read points and ideal step forcing."
+}

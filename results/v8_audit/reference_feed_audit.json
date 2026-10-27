@@ -1,0 +1,58 @@
+{
+  "reference": {
+    "source": "Gorshkova et al. (2012), Table 2, test 1 (printed p.402)",
+    "bed_height_m": 1.5,
+    "bed_width_m": 1.0,
+    "pellet_diameter_m": 0.003,
+    "pellet_porosity": 0.5,
+    "bed_porosity": 0.37,
+    "catalyst_mass_kg": 1876.0,
+    "pore_diameter_m": 1e-05,
+    "pressure_bar": 20.0,
+    "inlet_T_K": 400.0,
+    "liquid_mass_flow_kg_s": 1.042,
+    "gas_mass_flow_kg_s": 0.02071,
+    "liquid_mass_fractions": {
+      "octene": 0.3,
+      "octane": 1e-05,
+      "H2": 0.000377
+    },
+    "gas_mass_fractions": {
+      "octene": 0.526,
+      "octane": 0.0,
+      "H2": 0.407
+    }
+  },
+  "molecular_weights_kg_mol": {
+    "octene": 0.112215,
+    "octane": 0.114231,
+    "H2": 0.00201588,
+    "dodecane": 0.170339
+  },
+  "liquid_feed_mol_s": {
+    "octene": 2.7857238337120704,
+    "octane": 9.121867093871193e-05,
+    "H2": 0.19486973430958193,
+    "dodecane": 4.2796819636137355
+  },
+  "gas_feed_mol_s": {
+    "octene": 0.09707668315287618,
+    "octane": 0.0,
+    "H2": 4.181285592396373,
+    "dodecane": 0.008145932522792778
+  },
+  "total_feed_mol_s": {
+    "octene": 2.8828005168649464,
+    "octane": 9.121867093871193e-05,
+    "H2": 4.3761553267059545,
+    "dodecane": 4.287827896136529
+  },
+  "stoichiometric_upper_bound_reaction_mol_s": 2.8828005168649464,
+  "limiting_inlet_species": "octene",
+  "theoretical_max_octene_conversion_at_inlet_stoichiometry": 1.0,
+  "assumptions": [
+    "Unspecified mass fraction assigned to inert dodecane, as named in paper.",
+    "Constant formula-based molecular weights.",
+    "Upper bound ignores kinetics, phase partitioning, evaporation and recycle."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "data_type": "entirely synthetic; identical forward and generating model",
+  "objective": "maximize minimum log-det Fisher information across a fixed 5-point parameter ensemble",
+  "parameter_ensemble": [
+    [
+      0.00125,
+      7e-06
+    ],
+    [
+      0.00125,
+      2.8e-05
+    ],
+    [
+      0.0025,
+      1.4e-05
+    ],
+    [
+      0.005,
+      7e-06
+    ],
+    [
+      0.005,
+      2.8e-05
+    ]
+  ],
+  "sampling_times_s": [
+    0.0,
+    8.0,
+    16.0,
+    24.0,
+    32.0,
+    40.0,
+    48.0,
+    56.0,
+    64.0,
+    72.0,
+    80.0,
+    88.0,
+    96.0,
+    104.0,
+    112.0,
+    120.0,
+    128.0,
+    136.0,
+    144.0,
+    152.0,
+    160.0,
+    168.0,
+    176.0,
+    184.0,
+    192.0,
+    200.0,
+    208.0,
+    216.0,
+    224.0,
+    232.0,
+    240.0
+  ],
+  "assumed_gaussian_noise_sd": 8e-05,
+  "baseline_design": [
+    1.0,
+    1.35
+  ],
+  "local_design": [
+    1.6,
+    1.9
+  ],
+  "robust_design": [
+    1.6,
+    1.9
+  ],
+  "scores": {
+    "baseline": {
+      "worst": 5.361658848200555,
+      "mean": 9.220885527097927,
+      "std": 2.383377598602506,
+      "nominal": 9.786760367113244
+    },
+    "local": {
+      "worst": 9.669150083122496,
+      "mean": 13.098383191448942,
+      "std": 2.134483853764293,
+      "nominal": 13.705200515644528
+    },
+    "robust": {
+      "worst": 9.669150083122496,
+      "mean": 13.098383191448942,
+      "std": 2.134483853764293,
+      "nominal": 13.705200515644528
+    }
+  },
+  "holdout_flow": 1.75,
+  "n_independent_noise_trials": 1,
+  "heldout_synthetic_scenarios": [
+    0,
+    4
+  ],
+  "holdout_mean_rmse": {
+    "baseline": 9.773392679889831e-05,
+    "local": 9.746767567062474e-05,
+    "robust": 9.746767567062474e-05
+  },
+  "wins_vs_baseline": {
+    "local": 1,
+    "robust": 1
+  },
+  "limitations": [
+    "robust over finite preselected ensemble only",
+    "no published or real experimental RTD data",
+    "local Fisher information linearization within each ensemble member",
+    "optimization uses the same model family as synthetic tests",
+    "no physical safety/flow operating constraints",
+    "no guarantees of improved holdout RMSE"
+  ]
+}

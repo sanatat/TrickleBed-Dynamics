@@ -1,0 +1,8 @@
+variant,rmse,observed_t50_delta_s,model_t50_delta_s,rmse_transition_300_900,param_source
+axial_only_reference,0.014868598925778884,150.9774305189186,144.41075751477103,0.018089484779270665,fixed publisher + explicitly declared assumptions; no fit
+full_heterogeneous_reference,0.04938069756808999,150.9774305189186,208.20489213944109,0.07804360499590014,fixed publisher + explicitly declared assumptions; no fit
+no_adsorption,0.038974734298765475,150.9774305189186,196.48013524134,0.06221329632559795,fixed publisher + explicitly declared assumptions; no fit
+low_pore_access_0p25,0.013424750037593471,150.9774305189186,160.54949536654527,0.01737279529806531,fixed publisher + explicitly declared assumptions; no fit
+high_intraparticle_diffusion_table2,0.05368304584531351,150.9774305189186,217.71912820654984,0.0874483818063882,fixed publisher + explicitly declared assumptions; no fit
+low_surface_exchange_0p1,0.048680015699403535,150.9774305189186,204.96046382329314,0.07532457803315903,fixed publisher + explicitly declared assumptions; no fit
+fast_adsorption_relaxation,0.04946273206286868,150.9774305189186,208.54500577346857,0.0783972105410546,fixed publisher + explicitly declared assumptions; no fit

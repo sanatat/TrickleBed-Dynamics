@@ -1,0 +1,20 @@
+[
+  {
+    "chi": 1.0,
+    "time_s": 1800.0,
+    "model_outlet_liquid_proxy_conversion": 0.14463967871801664,
+    "model_peak_T_K": 401.74974472478465,
+    "model_max_temp_rise_K": 1.749744724784648,
+    "model_outlet_liquid_A_mol_m3": 256.608096384595,
+    "model_wetting_mean": 0.8400001044633665
+  },
+  {
+    "chi": 10.0,
+    "time_s": 1800.0,
+    "model_outlet_liquid_proxy_conversion": 0.38039901167909695,
+    "model_peak_T_K": 404.48943849376576,
+    "model_max_temp_rise_K": 4.4894384937657605,
+    "model_outlet_liquid_A_mol_m3": 185.88029649627092,
+    "model_wetting_mean": 0.8400001043349192
+  }
+]

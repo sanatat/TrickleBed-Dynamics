@@ -1,0 +1,5 @@
+activation_energy_proxy,Ea_J_mol,chi,peak_temperature_K,outlet_bulk_A_mol_m3,outlet_bulk_A_drop_percent,kinetics_status
+TMP-1,34000.0,1.0,400.704277651315,1820.4853361137793,2.721065718091542,SYNTHETIC k_ref and adsorption; literature Ea only
+TMP-1,34000.0,10.0,402.0167801216624,1760.0154847195313,5.952315420094179,SYNTHETIC k_ref and adsorption; literature Ea only
+TMP-2,49000.0,1.0,400.7042003485378,1820.477616250331,2.7214782345090893,SYNTHETIC k_ref and adsorption; literature Ea only
+TMP-2,49000.0,10.0,402.02194569985505,1759.7564145086756,5.966159021861406,SYNTHETIC k_ref and adsorption; literature Ea only

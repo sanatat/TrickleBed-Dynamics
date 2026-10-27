@@ -1,0 +1,26 @@
+{
+  "fit_function": "shifted gamma survival curve (phenomenological; not reactor governing PDE)",
+  "fitted_parameters_delay_s_shape_scale_s": [
+    136.40423390907551,
+    1.659701904491597,
+    89.05071597493198
+  ],
+  "visual_digitization_rmse_dimensionless": 0.003984778576678645,
+  "illustrative_perturbation_interval_95pct": [
+    [
+      14.08977315048775,
+      0.7167926347829181,
+      39.11106163051369
+    ],
+    [
+      172.82677742162824,
+      6.608008419302455,
+      169.18057194952684
+    ]
+  ],
+  "n_fig6_approx_points": 19,
+  "n_fig5_approx_points": 13,
+  "data_origin": "coarse approximate manual readings from published plot; NOT experimental numerical measurements",
+  "calibration": "Figure 6 only, no out-of-sample physical validation",
+  "caveat": "RMSE measures fit to approximate hand-read values, not experimental error"
+}

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the research code, please cite this repository and its underlying publications."
+title: "TrickleBed-Dynamics: exploratory three-phase reactor and tracer modelling"
+type: software
+authors:
+  - name: "sanatat"
+version: "2.9"
+date-released: 2026-10-27
+repository-code: "https://github.com/sanatat/TrickleBed-Dynamics"
+keywords:
+  - trickle-bed reactor
+  - tracer residence time distribution
+  - parameter identifiability
+  - numerical modelling

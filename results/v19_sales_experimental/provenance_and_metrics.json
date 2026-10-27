@@ -1,0 +1,33 @@
+{
+  "title": "Sales et al. (2005) Table 3 published optimized hydrodynamic parameters",
+  "doi": "10.1590/S0104-66322005000300012",
+  "article_url": "https://www.scielo.br/j/bjce/a/fN94qbKQVRVXmTqN8R8BPxP/?format=html&lang=en",
+  "source": "Published Table 3, printed page 450, PDF page index 7",
+  "data_category": "experiment-derived optimized model parameters; NOT raw time/concentration measurements; NOT digitized RTD curves",
+  "n_rows": 6,
+  "description": "Trickle-bed RTD experiments with sodium gluconate tracer; conditions approximately 300 K, 202.64 kPa, activated carbon packed bed. Table 3 velocities and fitted hydrodynamic parameters",
+  "methods": "Leave-one-out ridge regression with two predictors: uL and uG, vs liquid-only and training-mean baselines. Exploratory only: n=6, no independent reactor or raw RTD profiles.",
+  "metrics": {
+    "wetting_efficiency": {
+      "loo_mae_two_flows": 0.035422860793713894,
+      "loo_mae_liquid_only": 0.0667208480565371,
+      "loo_mae_mean": 0.082,
+      "units": "dimensionless",
+      "n_observations": 6
+    },
+    "liquid_holdup": {
+      "loo_mae_two_flows": 0.014419912833508242,
+      "loo_mae_liquid_only": 0.016240282685512353,
+      "loo_mae_mean": 0.027999999999999997,
+      "units": "dimensionless",
+      "n_observations": 6
+    },
+    "Peclet_L": {
+      "loo_mae_two_flows": 1.9046998399931219,
+      "loo_mae_liquid_only": 1.42694464075383,
+      "loo_mae_mean": 7.014666666666668,
+      "units": "dimensionless",
+      "n_observations": 6
+    }
+  }
+}

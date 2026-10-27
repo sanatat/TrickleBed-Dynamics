@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Local inputs and source PDFs: cite source, do not redistribute
+*.pdf
+data/source/
+
+# Generated local temp and packaging
+.DS_Store
+Thumbs.db
+*.zip
+*.log
+*.egg-info/
+build/
+dist/
